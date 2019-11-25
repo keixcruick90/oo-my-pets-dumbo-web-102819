@@ -2,9 +2,10 @@ class Dog
   @@all = []
   attr_writer :mood, :owner
 
-  def initialize(name, owner)
+  def initialize(name, owner, mood)
     @name = name
     @owner = owner
+    @mood = mood
   end
 
   def name
