@@ -13,11 +13,6 @@ class Cat
     @name
   end
 
-  def mood=(x)
-    @x = nervous
-    @mood = nervous
-  end
-
   def owner
     @owner
   end
