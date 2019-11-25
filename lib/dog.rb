@@ -11,6 +11,10 @@ class Dog
       @name
   end
 
+  def mood
+    @mood
+  end
+
   def new_owner(dog)
     new_owner = Owner.new
   end
