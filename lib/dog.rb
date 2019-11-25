@@ -1,6 +1,6 @@
 class Dog
   @@all = []
-  attr_writer :mood
+  attr_writer :mood, :owner
 
   def initialize(name, owner)
     @name = name
