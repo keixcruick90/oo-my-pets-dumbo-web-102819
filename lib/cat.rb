@@ -14,6 +14,7 @@ class Cat
   end
 
   def mood=(x)
+    @x = nervous
     @mood = nervous
   end
 
