@@ -1,6 +1,6 @@
 class Cat
   @@all = []
-
+  attr_writer :mood
 
   def initialize(name, owner)
     @name = name
