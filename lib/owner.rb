@@ -28,11 +28,11 @@ class Owner
   end
 
   def cat
-    Cat.all.map { |cat_instance| cat.owner == self}
+    Cat.all.select { |cat_instance| cat.name.owner}
   end
 
   def dog
-    Dog.all.map { |dog_instance| dog.owner == self }
+    Dog.all.select { |dog_instance| dog.name.owner}
   end
 
 end
