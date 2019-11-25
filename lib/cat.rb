@@ -2,7 +2,7 @@ class Cat
   @@all = []
   attr_writer :mood, :owner
 
-  def initialize(name, owner, mood)
+  def initialize(name, owner)
     @name = name
     @owner = owner
     @mood = mood
