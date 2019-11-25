@@ -12,11 +12,11 @@ class Dog
   end
 
   def mood
-    @mood
+    @mood = mood
   end
 
-  def new_owner(dog)
-    new_owner = Owner.new(owner, self)
+  def owner
+    @owner = owner
   end
 
   def self.all
