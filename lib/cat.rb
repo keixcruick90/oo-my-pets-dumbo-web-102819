@@ -13,6 +13,10 @@ class Cat
     @name
   end
 
+  def mood
+    @mood = mood
+  end
+
   def owner
     @owner
   end
