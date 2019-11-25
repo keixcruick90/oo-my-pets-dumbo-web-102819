@@ -16,7 +16,7 @@ class Dog
   end
 
   def new_owner(dog)
-    new_owner = Owner.new
+    new_owner = Owner.new(owner, self)
   end
 
   def self.all
