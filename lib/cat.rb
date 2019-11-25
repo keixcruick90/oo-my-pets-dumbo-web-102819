@@ -16,8 +16,8 @@ class Cat
     @mood
   end
 
-  def new_owner(cat)
-    new_owner = Owner.new(owner, self)
+  def owner
+    @owner
   end
 
   def self.all
