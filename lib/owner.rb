@@ -28,11 +28,11 @@ class Owner
   end
 
   def cat
-    Cat.all.select { |owner| cat.owner == self}
+    Cat.all.select { |cat| cat.owner == owner.name}
   end
 
   def dog
-    Dog.all.select { |owner| dog.owner == self }
+    Dog.all.select { |dog| dog.owner == owner.name }
   end
 
 end
