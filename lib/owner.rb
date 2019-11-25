@@ -27,12 +27,12 @@ class Owner
     @@all.length
   end
 
-  def buy_cat
-
+  def cat
+    Cat.all.select { |owner| }
   end
 
-  def buy_dog
-
+  def dog
+    Dog.all.select { |owner| }
   end
 
 end
